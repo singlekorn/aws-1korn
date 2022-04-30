@@ -11,6 +11,9 @@ module "vpc-primary" {
 
 module "vpc-secondary" {
   source = "terraform-aws-modules/vpc/aws"
+  providers = {
+    aws = aws.secondary
+   }
 
   name = "${var.project_name}-${var.env}-use2"
   cidr = "10.174.0.0/20"
