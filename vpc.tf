@@ -12,7 +12,7 @@ module "vpc-primary" {
 module "vpc-secondary" {
   source = "terraform-aws-modules/vpc/aws"
   providers = {
-    name = aws.secondary
+    aws = aws.secondary
    }
 
   name = "${var.project_name}-${var.env}-use2"
