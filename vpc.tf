@@ -1,7 +1,7 @@
 # module "vpc-usw2" {
 #   source = "terraform-aws-modules/vpc/aws"
 
-#   name = "${var.project_name}-${var.env}-usw2"
+#   name = "${var.project_name}-${var.env}"
 #   cidr = "10.170.0.0/20"
 
 #   azs             = ["usw2-az2", "usw2-az3"]
@@ -15,7 +15,7 @@
 #     aws = aws.secondary
 #    }
 
-#   name = "${var.project_name}-${var.env}-use2"
+#   name = "${var.project_name}-${var.env}"
 #   cidr = "10.174.0.0/20"
 
 #   azs             = ["use2-az2", "use2-az3"]
