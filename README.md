@@ -1,5 +1,2 @@
 # aws-1korn
-
-## Authentication and Authorization
-
-![diagram of pipeline AA](./aws-1korn%20Infrastructure%20Pipeline.svg "Authentication and Authorization Diagram")
+Template for a 2-Environment & 2-Region AWS Terraform Deployment using VCS

@@ -14,7 +14,7 @@ variable "account_id" {
 
 variable "env" {
   type        = string
-  description = "The operating enviornment (prod, dev)"
+  description = "The operating enviornment (prod, dev)."
 }
 
 variable "primary_region" {
